@@ -82,3 +82,43 @@ body {
   box-shadow: 0 0 5px #5cd053;
   border-color: #28921f;
 }
+
+.search-bar {
+  background-color: lightgrey;
+  border-radius: 8px;
+  height: 50px;
+  width: 800px;
+  margin: auto;
+}
+
+.col {
+  display: inline-block;
+}
+
+#left {
+  width: 20%;
+  text-align: right;
+  padding-right: 15px;
+}
+
+#center {
+  margin-top: 15px;
+  width: 50%;
+}
+
+#search-field {
+  width: 100%;
+}
+
+#right {
+  width: 20%;
+  padding-left: 15px;
+}
+
+#search-button {
+  padding: 5px;
+  border-radius: 4px;
+  border-style: none;
+  background: red;
+  color: white;
+}
