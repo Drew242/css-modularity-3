@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 400px;
+}
+
 .headers4 {
   display: inline-block;
 }
@@ -54,5 +58,27 @@
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 10px 10px 10px grey;
-  cursor: pointer; 
+  cursor: pointer;
+  font-size: 100%;
+}
+
+.required-header {
+  color: red;
+  margin-left: 60%;
+}
+
+.form-validation {
+  padding: 30px 0 30px 0;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+}
+
+.form-validation input:required:invalid, .form-validation textarea:required:invalid {
+  box-shadow: 0 0 5px #d45252;
+  border-color: #b03535
+}
+
+.form-validation input:required:valid, .form-validation textarea:required:valid {
+  box-shadow: 0 0 5px #5cd053;
+  border-color: #28921f;
 }
